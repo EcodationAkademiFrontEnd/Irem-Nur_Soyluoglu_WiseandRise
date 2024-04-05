@@ -1,0 +1,168 @@
+.subTitle {
+  border-radius: 10px;
+  backdrop-filter: blur(6.4px);
+  background-color: rgba(255, 255, 255, 0.1);
+  height: auto;
+  padding: 0px 15px;
+}
+
+.slick-bg1:before {
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(20, 20, 20, 1) 35%,
+    rgba(83, 100, 141, 0) 100%
+  ) !important;
+  width: 100%;
+  z-index: -1;
+}
+
+.slick-bg-new-card {
+  position: relative;
+  max-height: 600px;
+  min-height: 300px;
+}
+
+.slick-bg-new-card:before {
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(20, 20, 20, 1) 10%,
+    rgba(83, 100, 141, 0) 40%
+  ) !important;
+  width: 100%;
+  z-index: -1;
+}
+
+.ws-home-category {
+  border-radius: 10px;
+  backdrop-filter: blur(6.4px);
+  background-color: rgba(255, 255, 255, 0.1);
+  height: auto;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+}
+
+.bg-title1 {
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+}
+
+.price-wrapper {
+  overflow: hidden;
+}
+
+.price,
+.plan {
+  height: 21px;
+  overflow: hidden;
+}
+
+.price-item,
+.plan-item {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.price-item {
+  display: block;
+  animation: spin_price 4s ease-in-out infinite;
+}
+
+@keyframes spin_price {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  25% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(0%);
+  }
+
+  75% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.video-modal-content > .modal-content {
+  border: none !important;
+}
+
+.home-footer-card-bg {
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 70%;
+}
+
+.slick-bg111 {
+  min-height: 800px;
+}
+
+@media (max-width: 576px) {
+  .disabled {
+    display: none;
+  }
+
+  .slick-max-bg {
+    height: 260px !important;
+  }
+
+  .slick-bg111 {
+    background-position-y: 10px !important;
+  }
+
+  .animation-bg {
+    background-position-y: 10px !important;
+    /* background-size: 130px 95% !important;
+        height: 260px; */
+  }
+
+  .home-page .title {
+    font-size: 18px !important;
+  }
+
+  .slick-bg-new-card {
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .slick-bg111 {
+    background-position-y: 20px !important;
+  }
+
+  .slick-max-bg {
+    height: 45vh;
+  }
+
+  .animation-bg {
+    background-position-y: -20px !important;
+    /* background-size: 300vw 95% !important; */
+  }
+}
+.swiper-wrapper {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Display items horizontally */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+.swiper-container {
+  width: 100%; /* Ensure the container takes up the full width */
+}
+
+.swiper-slide {
+  width: 100%; /* Make each slide take up the full width */
+  margin-right: 0; /* Remove any right margin */
+  box-sizing: border-box; /* Ensure padding and borders are included in the width */
+}
+.ws-card-title1 img {
+  max-width: 100%;
+}
